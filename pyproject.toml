@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hw5"
+version = "0.1.0"
+description = ""
+authors = ["anurag-bangera <97190957+anurag-bangera@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.39.3"
+huggingface-hub = {extras = ["cli"], version = "^0.22.2"}
+torch = "^2.2.2"
+torchvision = "^0.17.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
